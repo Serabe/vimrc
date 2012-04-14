@@ -92,3 +92,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 " Autoclose
 let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'", '#{': '}', '|': '|', '<': '>'}
 let g:AutoCloseProtectedRegions = ["Character"]
+
+" Press F5 to remove trailing space
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
