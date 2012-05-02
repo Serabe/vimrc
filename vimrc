@@ -80,6 +80,13 @@ set guifont=Inconsolata\ 13
 
 " Color
 colorscheme railscasts
+" colorscheme inkpot
+" colorscheme jellybeans
+" colorscheme lucius
+" colorscheme moria
+" colorscheme desertEx
+" colorscheme earendel
+
 
 " CtrlP
 
