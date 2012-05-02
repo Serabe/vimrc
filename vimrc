@@ -22,11 +22,15 @@ set incsearch " incremental searching
 set ignorecase " searches are case insensitive...
 set smartcase  " ...unless they contain at least one capital letter
 
+"" Split
+set splitbelow " When splitting, new window is below
+
 "" Mappings
 imap jk <ESC>
 imap Jk <ESC>
 imap JK <ESC>
 
+"" No arrows, please
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -57,6 +61,7 @@ let mapleader=","
 "" Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
+  autocmd bufwritepost vimrc source $MYVIMRC " My vimrc has no point
 endif
 
 "" statusline setup
@@ -95,3 +100,9 @@ let g:AutoCloseProtectedRegions = ["Character"]
 
 " Press F5 to remove trailing space
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
+" Saves time
+nmap <space> :
+
+" Map code completion to leader+tab
+imap <Leader><tab> <C-x><C-o>
