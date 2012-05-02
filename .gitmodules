@@ -25,3 +25,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/Color-Sampler-Pack"]
+	path = bundle/Color-Sampler-Pack
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
