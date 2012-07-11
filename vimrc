@@ -113,3 +113,6 @@ nmap <space> :
 
 " Map code completion to leader+tab
 imap <Leader><tab> <C-x><C-o>
+
+" Dict for node
+au FileType javascript set dictionary+=$HOME/.vim/bundle/vim-node/dict/node.dict
