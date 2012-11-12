@@ -116,3 +116,8 @@ imap <Leader><tab> <C-x><C-o>
 
 " Dict for node
 au FileType javascript set dictionary+=$HOME/.vim/bundle/vim-node/dict/node.dict
+
+" git-vim config
+let g:gist_clip_command = 'pbcopy'
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
