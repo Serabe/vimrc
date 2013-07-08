@@ -46,3 +46,12 @@
 [submodule "bundle/vim-detailed"]
 	path = bundle/vim-detailed
 	url = https://github.com/rking/vim-detailed.git
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = git@github.com:jimenezrick/vimerl.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir
+[submodule "bundle/elixir-snippets"]
+	path = bundle/elixir-snippets
+	url = https://github.com/carlosgaldino/elixir-snippets
